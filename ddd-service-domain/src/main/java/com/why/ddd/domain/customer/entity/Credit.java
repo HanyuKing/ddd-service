@@ -1,4 +1,4 @@
-package com.why.ddd.domain.customer;
+package com.why.ddd.domain.customer.entity;
 
 import com.alibaba.cola.domain.Entity;
 import lombok.Data;

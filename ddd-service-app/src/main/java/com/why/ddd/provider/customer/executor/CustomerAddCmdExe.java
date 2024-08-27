@@ -1,5 +1,5 @@
 
-package com.why.ddd.customer.executor;
+package com.why.ddd.provider.customer.executor;
 
 import com.alibaba.cola.dto.Response;
 import com.alibaba.cola.exception.BizException;

@@ -1,6 +1,6 @@
-package com.why.ddd.customer;
+package com.why.ddd.repository.impl.customer;
 
-import com.why.ddd.domain.customer.Credit;
+import com.why.ddd.domain.customer.entity.Credit;
 import com.why.ddd.domain.customer.gateway.CreditGateway;
 
 public class CreditGatewayImpl implements CreditGateway {

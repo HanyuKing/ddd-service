@@ -1,7 +1,9 @@
 package com.why.ddd.domain.customer.gateway;
 
-import com.why.ddd.domain.customer.Customer;
+import com.why.ddd.domain.customer.entity.Customer;
 
 public interface CustomerGateway {
-    public Customer getByById(String customerId);
+    Customer getByById(String customerId);
+
+    void save(Customer customer);
 }

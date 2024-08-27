@@ -1,7 +1,6 @@
 package com.why.ddd.domain.customer.gateway;
 
-import com.why.ddd.domain.customer.Customer;
-import com.why.ddd.domain.customer.Credit;
+import com.why.ddd.domain.customer.entity.Credit;
 
 //Assume that the credit info is in antoher distributed Service
 public interface CreditGateway {

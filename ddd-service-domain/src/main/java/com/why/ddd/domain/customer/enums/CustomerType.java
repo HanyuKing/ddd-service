@@ -1,4 +1,4 @@
-package com.why.ddd.domain.customer;
+package com.why.ddd.domain.customer.enums;
 
 /**
  * CustomerType

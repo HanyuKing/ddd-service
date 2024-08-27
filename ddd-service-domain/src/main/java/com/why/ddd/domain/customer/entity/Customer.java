@@ -1,7 +1,9 @@
-package com.why.ddd.domain.customer;
+package com.why.ddd.domain.customer.entity;
 
 import com.alibaba.cola.domain.Entity;
 import com.alibaba.cola.exception.BizException;
+import com.why.ddd.domain.customer.enums.CompanyType;
+import com.why.ddd.domain.customer.enums.SourceType;
 import lombok.Data;
 
 //Domain Entity can choose to extends the domain model which is used for DTO

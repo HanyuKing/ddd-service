@@ -1,4 +1,4 @@
-package com.why.ddd.customer;
+package com.why.ddd.provider.customer.executor;
 
 import com.alibaba.cola.dto.MultiResponse;
 import com.alibaba.cola.dto.Response;
@@ -7,11 +7,9 @@ import com.why.ddd.api.CustomerServiceI;
 import com.why.ddd.dto.CustomerAddCmd;
 import com.why.ddd.dto.CustomerListByNameQry;
 import com.why.ddd.dto.data.CustomerDTO;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.why.ddd.customer.executor.CustomerAddCmdExe;
-import com.why.ddd.customer.executor.query.CustomerListByNameQryExe;
+import com.why.ddd.provider.customer.executor.query.CustomerListByNameQryExe;
 
 import javax.annotation.Resource;
 

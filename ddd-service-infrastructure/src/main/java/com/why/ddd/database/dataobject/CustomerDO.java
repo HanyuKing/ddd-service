@@ -1,9 +1,9 @@
-package com.why.ddd.customer;
+package com.why.ddd.database.dataobject;
 
 import lombok.Data;
 
 @Data
-public class CustomerDO{
+public class CustomerDO {
   private String customerId;
   private String memberId;
   private String globalId;

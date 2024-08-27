@@ -1,4 +1,4 @@
-package com.why.ddd.customer.executor.query;
+package com.why.ddd.provider.customer.executor.query;
 
 import com.alibaba.cola.dto.MultiResponse;
 import com.why.ddd.dto.CustomerListByNameQry;
