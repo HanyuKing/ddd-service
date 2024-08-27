@@ -5,7 +5,7 @@
 
 ![ddd-architecture.png](ddd-architecture.png)
 
-### client(or api)
+### api(or client)
 - 对外接口定义
 
 ### application

@@ -8,9 +8,9 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>ddd-service-client</artifactId>
+    <artifactId>ddd-service-api</artifactId>
     <packaging>jar</packaging>
-    <name>ddd-service-client</name>
+    <name>ddd-service-api</name>
 
     <dependencies>
         <dependency>

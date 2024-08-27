@@ -15,7 +15,7 @@
     <dependencies>
         <dependency>
             <groupId>com.why.ddd.service</groupId>
-            <artifactId>ddd-service-client</artifactId>
+            <artifactId>ddd-service-api</artifactId>
         </dependency>
         <dependency>
             <groupId>com.why.ddd.service</groupId>

@@ -20,7 +20,7 @@
     </properties>
 
     <modules>
-        <module>ddd-service-client</module>
+        <module>ddd-service-api</module>
         <module>ddd-service-app</module>
         <module>ddd-service-domain</module>
         <module>ddd-service-infrastructure</module>
@@ -54,7 +54,7 @@
             <!--Project modules-->
             <dependency>
                 <groupId>com.why.ddd.service</groupId>
-                <artifactId>ddd-service-client</artifactId>
+                <artifactId>ddd-service-api</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
             <dependency>
