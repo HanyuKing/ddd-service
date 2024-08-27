@@ -23,6 +23,6 @@ public class CustomerGatewayImpl implements CustomerGateway {
 
     @Override
     public void save(Customer customer) {
-        customerMapper.save(CustomerConvertor.entityToDO(customer));
+       // customerMapper.save(CustomerConvertor.entityToDO(customer));
     }
 }
